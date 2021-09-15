@@ -1,8 +1,3 @@
-/*
- * decaffeinate suggestions:
- * DS102: Remove unnecessary code created because of implicit returns
- * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
- */
 // Description:
 //   Uses downforeveryoneorjustme.com to check if a site is up
 //
@@ -17,6 +12,12 @@
 //
 // Author:
 //   jmhobbs
+
+/*
+ * decaffeinate suggestions:
+ * DS102: Remove unnecessary code created because of implicit returns
+ * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
+ */
 
 module.exports = robot => robot.respond(/is (?:http\:\/\/)?(.*?) (up|down)(\?)?/i, msg => isUp(msg, msg.match[1], domain => msg.send(domain)));
 

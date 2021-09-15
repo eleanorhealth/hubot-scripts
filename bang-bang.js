@@ -1,9 +1,3 @@
-/*
- * decaffeinate suggestions:
- * DS102: Remove unnecessary code created because of implicit returns
- * DS207: Consider shorter variations of null checks
- * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
- */
 // Description:
 //   None
 //
@@ -16,8 +10,14 @@
 // Commands:
 //   hubot !! - Repeat the last command directed at hubot
 //
-// Author:
-//   None
+
+/*
+ * decaffeinate suggestions:
+ * DS102: Remove unnecessary code created because of implicit returns
+ * DS207: Consider shorter variations of null checks
+ * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
+ */
+
 
 const {TextMessage} = require('hubot');
 
@@ -27,7 +27,7 @@ module.exports = function(robot) {
   return robot.respond(/!!$/i, function(msg) {
     if (exports.last_command != null) {
       msg.send(exports.last_command);
-      return robot.receive(new TextMessage( 
+      return robot.receive(new TextMessage(
         msg.message.user,
         `${robot.name}: ${exports.last_command}`)
       );

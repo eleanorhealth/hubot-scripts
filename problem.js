@@ -1,16 +1,20 @@
+// Description:
+//   Do the someone else's problem dance
+//
+// Commands:
+// hubot sep - do the someone else's problem dance
+//
+// Configuration:
+//   none
+//
+// Author:
+//   Brad Clark <bdashrad@gmail.com>
+
 /*
  * decaffeinate suggestions:
  * DS102: Remove unnecessary code created because of implicit returns
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
-// Description:
-//   Do the someone else's problem dance
-//
-// Commands:
-// hubot sep
-//
-// Configuration:
-//   none
 
 module.exports = function(robot) {
 
