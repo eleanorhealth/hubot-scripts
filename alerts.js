@@ -3,12 +3,17 @@
  * DS102: Remove unnecessary code created because of implicit returns
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
-// Description:
+
+// Description
 //   Manage alerts with Hubot.
 //
 // Commands:
-//   hubot alerts take
-//   hubot alerts who
+//   hubot alerts take - take alerts
+//   hubot alerts who - check who's on alerts
+//   hubot alerts give - assign alerts to someone
+//
+// Author:
+//   Brad Clark <bdashrad@gmail.com>
 //
 // Configuration:
 //   none
