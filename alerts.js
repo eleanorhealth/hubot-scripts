@@ -1,17 +1,26 @@
+// Description:
+//   Manage alerts with Hubot.
+//
+// Dependencies:
+//   none
+//
+// Configuration:
+//   none
+//
+// Commands:
+//   hubot alerts take - take alerts
+//   hubot alerts who - check who's on alerts
+//   hubot alerts give <name> - assign alerts to someone
+//
+// Author:
+//   Brad Clark <bdashrad@gmail.com>
+//
+
 /*
  * decaffeinate suggestions:
  * DS102: Remove unnecessary code created because of implicit returns
  * Full docs: https://github.com/decaffeinate/decaffeinate/blob/master/docs/suggestions.md
  */
-// Description:
-//   Manage alerts with Hubot.
-//
-// Commands:
-//   hubot alerts take
-//   hubot alerts who
-//
-// Configuration:
-//   none
 
 module.exports = function(robot) {
 
